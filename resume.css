@@ -96,3 +96,62 @@ ul {
 li {
     margin-bottom: 10px;
 }
+
+@media (max-width: 500px) {
+
+    img {
+        width: 80%; 
+        height: auto; 
+    }
+
+    section {
+        scroll-margin-top: 180px;
+        padding: 15px 10px;
+    }
+
+    .content {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 1.5;
+    }
+
+    .title {
+        margin-top: 200px;
+        border-radius: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 8px;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(210, 130, 56);
+    }
+
+    .list {
+        display: inline-block;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgb(210, 130, 56);
+    }
+
+    .btn {
+        color: white;
+        margin-top: 30px;
+        background-color: #696363f2;
+        padding: 5px 10px; 
+        font-size: 15px; 
+        border-radius: 4px; 
+        cursor: pointer;
+    }
+
+    .horizontally {
+        display: flex;             
+        flex-direction: column;    
+        width: 100%;               
+        font-size: 15px;           
+        padding-top: 10px;        
+        padding-bottom: 10px;
+    }
+}
